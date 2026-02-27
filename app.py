@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, jsonify, make_response, session
+from flask import Flask, 
+render_template, request, jsonify, make_response, session
 app = Flask(__name__)
 
 @app.route('/clientes')
